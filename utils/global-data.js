@@ -1,4 +1,4 @@
-export const getGlobalData = () => {
+Mexport const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
     : 'ECMPartners';
@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'ECMPartners';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'ECMP BV,  All rights reserved.';
 
   return {
     name,
