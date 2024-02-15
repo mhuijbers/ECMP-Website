@@ -4,10 +4,10 @@ Mexport const getGlobalData = () => {
     : 'ECMPartners';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'ECMPartners';
+    : 'ECMPartners1';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'ECMP BV,  All rights reserved.';
+    : 'ECMP BV All rights reserved.';
 
   return {
     name,
